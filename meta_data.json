@@ -1,0 +1,10 @@
+{
+    "categories": {
+        "0": "productivity",
+        "1": "calendar"
+    },
+    "description": "Show a timer",
+    "image": "//meta-q.cdn.bubble.io/f1738687387591x624909820140189400/hourglass-end.svg",
+    "license": "open_source",
+    "name": "Timer"
+}
