@@ -13,6 +13,10 @@
         "AAL": {
             "caption": "timer_finished",
             "name": "timer_finished"
+        },
+        "AAR": {
+            "caption": "timer_updated",
+            "name": "timer_updated"
         }
     },
     "fields": {
@@ -20,15 +24,16 @@
             "caption": "duration",
             "editor": "DynamicValue",
             "name": "duration",
-            "rank": 0,
+            "rank": 1,
             "value": "number"
         },
-        "AAK": {
-            "caption": "start_datetime",
+        "AAQ": {
+            "caption": "id",
+            "doc": "Used to name the cookie",
             "editor": "DynamicValue",
-            "name": "start_datetime",
-            "rank": 1,
-            "value": "date"
+            "name": "id",
+            "rank": 0,
+            "value": "text"
         }
     },
     "icon": "ion-ios-timer-outline",
@@ -58,6 +63,14 @@
             },
             "name": "percent_complete",
             "value": "number"
+        },
+        "AAT": {
+            "caption": "id",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "id",
+            "value": "text"
         }
     }
 }
