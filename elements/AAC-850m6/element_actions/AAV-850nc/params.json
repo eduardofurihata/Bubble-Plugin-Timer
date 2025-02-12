@@ -1,3 +1,4 @@
 {
-    "caption": "timer_stop"
+    "caption": "Timer Stop",
+    "doc": "Stops the timer immediately."
 }

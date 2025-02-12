@@ -1,10 +1,14 @@
 {
     "categories": {
         "0": "productivity",
-        "1": "calendar"
+        "1": "calendar",
+        "2": "technical",
+        "3": "data (things)",
+        "4": "analytics"
     },
-    "description": "",
-    "image": "//meta-q.cdn.bubble.io/f1738687387591x624909820140189400/hourglass-end.svg",
+    "description": "This plugin provides a persistent countdown timer element that leverages cookies to maintain its state even after the page is reloaded.\n\nIt allows you to configure a custom duration and assign a unique ID to each instance, ensuring multiple timers can operate independently.\n\nWith built-in events such as Timer Updated and Timer Finished, you can seamlessly integrate dynamic workflows that respond as the timer counts down or completes.",
+    "image": "//meta-q.cdn.bubble.io/f1739281462295x458782181295681600/ios-timer-outline-1.svg",
     "license": "open_source",
-    "name": "Countdown Timer"
+    "name": "Persistent Countdown Timer",
+    "plugin_instructions": "Instructions:\n\n\n1. Add the Element:\n\nDrag and drop the Persistent Countdown Timer onto your page.\n\n\n2. Configure Parameters:\n\n  - Duration: Set the timer duration in seconds.\n\n  - ID: Provide a unique identifier for the timer (this ID is used for naming the cookie and enabling state persistence).\n\n\n3. Control the Timer:\n\n  - Use the Timer Start action to start or restart the countdown.\n\n  - Use the Timer Stop action to halt the timer at any moment.\n\n\n4. Integrate with Your Workflow:\n\n  - Subscribe to the Timer Updated event to update other elements or states as the timer progresses.\n  - Leverage the Timer Finished event to trigger actions when the countdown reaches zero."
 }

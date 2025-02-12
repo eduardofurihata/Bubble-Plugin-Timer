@@ -1,3 +1,4 @@
 {
-    "caption": "timer_start"
+    "caption": "Timer Start",
+    "doc": "Starts or restarts the countdown timer."
 }

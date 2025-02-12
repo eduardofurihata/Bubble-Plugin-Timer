@@ -11,25 +11,28 @@
     "display": "Timer Element",
     "events": {
         "AAL": {
-            "caption": "timer_finished",
+            "caption": "Timer Finished",
+            "doc": "Triggered when the countdown reaches zero.",
             "name": "timer_finished"
         },
         "AAR": {
-            "caption": "timer_updated",
+            "caption": "Timer Updated",
+            "doc": "Triggered each time the timer updates, providing real-time countdown progress.",
             "name": "timer_updated"
         }
     },
     "fields": {
         "AAD": {
-            "caption": "duration",
+            "caption": "Duration",
+            "doc": "The total countdown time in seconds.",
             "editor": "DynamicValue",
             "name": "duration",
             "rank": 1,
             "value": "number"
         },
         "AAQ": {
-            "caption": "id",
-            "doc": "Used to name the cookie",
+            "caption": "ID",
+            "doc": "A unique identifier for the timer instance, used to manage its state (e.g., naming the cookie).",
             "editor": "DynamicValue",
             "name": "id",
             "rank": 0,
@@ -49,7 +52,8 @@
     },
     "states": {
         "AAH": {
-            "caption": "seconds_remaining",
+            "caption": "Remaining Seconds",
+            "doc": "The number of seconds left in the countdown.",
             "initialization_code": {
                 "fn": "function(properties, context) {\n\n\n\n}"
             },
@@ -57,20 +61,13 @@
             "value": "number"
         },
         "AAI": {
-            "caption": "percent_complete",
+            "caption": "Percent Complete",
+            "doc": "The percentage of the countdown that has elapsed.",
             "initialization_code": {
                 "fn": "function(properties, context) {\n\n\n\n}"
             },
             "name": "percent_complete",
             "value": "number"
-        },
-        "AAT": {
-            "caption": "id",
-            "initialization_code": {
-                "fn": "function(properties, context) {\n\n\n\n}"
-            },
-            "name": "id",
-            "value": "text"
         }
     }
 }
